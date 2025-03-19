@@ -56,3 +56,15 @@ h1:first-of-type {
         width: 100%;
     }
 }
+
+.rsvp-icon {
+    width: 50px;  /* Adjust the size as needed */
+    height: auto; /* Keeps aspect ratio */
+    display: inline-block;
+    transition: transform 0.2s ease-in-out; /* Smooth hover effect */
+}
+
+/* Optional: Make the icon slightly larger when hovered */
+.rsvp-icon:hover {
+    transform: scale(1.1); 
+}
