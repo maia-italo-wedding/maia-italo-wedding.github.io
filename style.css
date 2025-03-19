@@ -8,6 +8,7 @@
 }
 
 .about-image {
+    float: left;
     width: 30%; /* Adjusts image size */
     max-width: 250px; /* Limits the maximum width */
     height: auto; /* Maintains aspect ratio */
@@ -15,9 +16,10 @@
 }
 
 .about-text {
+    float:right;
     width: 65%; /* Gives the text enough space */
 }
-    
+
 /* Ensures responsiveness */
 @media (max-width: 768px) {
     .about-container {
@@ -26,11 +28,13 @@
     }
 
     .about-image {
+        float: left;
         width: 80%; /* Makes the image smaller on small screens */
         max-width: 200px;
     }
 
     .about-text {
+        float:right;
         width: 100%;
     }
 }
