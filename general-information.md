@@ -1,3 +1,7 @@
+---
+title: "General Information"
+layout: default
+---
 
 The wedding cerimony and reception will both take place in [Galliate Lombardo](https://maps.app.goo.gl/xAy4S327aN14Aw997), a small village in Varese province.
 
