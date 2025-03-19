@@ -57,14 +57,21 @@ h1:first-of-type {
     }
 }
 
+.rsvp-container {
+    display: flex;  
+    align-items: center; /* Aligns text and image vertically */
+    justify-content: space-between; /* Spaces out text and icon */
+    gap: 10px; /* Adds space between text and icon */
+}
+
+/* RSVP Icon Styling */
 .rsvp-icon {
-    width: 50px;  /* Adjust the size as needed */
-    height: auto; /* Keeps aspect ratio */
-    display: inline-block;
-    transition: transform 0.2s ease-in-out; /* Smooth hover effect */
+    width: 40px; /* Adjust size */
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.2s ease-in-out;
 }
 
 /* Optional: Make the icon slightly larger when hovered */
 .rsvp-icon:hover {
-    transform: scale(1.1); 
+    transform: scale(1.5); 
 }
