@@ -1,3 +1,8 @@
+body {
+    transform: scale(1.6); /* Adjust value (e.g., 1.1 = 110% zoom) */
+    transform-origin: center top; /* Keeps zoom centered at the top */
+}
+
 .about-container {
     display: flex; /* Aligns image and text in a row */
     align-items: center; /* Vertically centers items */
