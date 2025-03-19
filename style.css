@@ -7,15 +7,29 @@
     margin: auto; /* Centers the section horizontally */
 }
 
-.about-image {
+.image-left {
+    float:left;
     width: 40%;
     height: auto; /* Maintain aspect ratio */
     border-radius: 10px; /* Optional: Adds rounded corners */
     display: block; /* Ensures no extra spacing issues */
 }
 
-.about-text {
+.image-right{
     float:right;
+    width: 40%;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+    display: block; /* Ensures no extra spacing issues */
+}
+
+.text-right {
+    float:right;
+    width: 65%; /* Gives the text enough space */
+}
+
+.text-left {
+    float:left;
     width: 65%; /* Gives the text enough space */
 }
 
