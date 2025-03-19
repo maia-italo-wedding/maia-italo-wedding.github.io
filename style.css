@@ -19,6 +19,11 @@
     width: 65%; /* Gives the text enough space */
 }
 
+h1:first-of-type {
+    display: none;
+}
+
+
 /* Ensures responsiveness */
 @media (max-width: 768px) {
     .about-container {
