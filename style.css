@@ -57,17 +57,33 @@ h1:first-of-type {
     }
 }
 
-.rsvp-container {
-    display: flex;  
-    align-items: center; /* Aligns text and image vertically */
-    justify-content: space-between; /* Spaces out text and icon */
-    gap: 10px; /* Adds space between text and icon */
+/* Make RSVP section full width and background colored */
+.rsvp-wrapper {
+    background-color: #a5615a; /* Change this to match your header color */
+    color: white; /* Ensures text is visible */
+    padding: 40px 0; /* Adds spacing above and below */
+    text-align: center; /* Centers text */
+    width: 100%; /* Ensures full page width */
 }
 
-/* RSVP Icon Styling */
+/* Center content inside RSVP */
+.rsvp {
+    max-width: 800px; /* Adjust to match your site's width */
+    margin: auto; /* Centers the RSVP content */
+}
+
+/* RSVP Container: Align text & icon */
+.rsvp-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center text and icon horizontally */
+    gap: 10px; /* Space between text and icon */
+}
+
+/* RSVP Icon */
 .rsvp-icon {
     width: 40px; /* Adjust size */
-    height: auto; /* Maintain aspect ratio */
+    height: auto;
     transition: transform 0.2s ease-in-out;
 }
 
