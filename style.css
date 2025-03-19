@@ -1,0 +1,36 @@
+.about-container {
+    display: flex; /* Aligns image and text in a row */
+    align-items: center; /* Vertically centers items */
+    justify-content: space-between; /* Distributes space evenly */
+    gap: 20px; /* Adds space between image and text */
+    max-width: 800px; /* Ensures content does not stretch too wide */
+    margin: auto; /* Centers the section horizontally */
+}
+
+.about-image {
+    width: 30%; /* Adjusts image size */
+    max-width: 250px; /* Limits the maximum width */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+}
+
+.about-text {
+    width: 65%; /* Gives the text enough space */
+}
+    
+/* Ensures responsiveness */
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column; /* Stacks image and text on small screens */
+        text-align: center;
+    }
+
+    .about-image {
+        width: 80%; /* Makes the image smaller on small screens */
+        max-width: 200px;
+    }
+
+    .about-text {
+        width: 100%;
+    }
+}
