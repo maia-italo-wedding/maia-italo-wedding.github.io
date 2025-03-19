@@ -8,29 +8,29 @@
 }
 
 .image-left {
-    float:left;
     width: 40%;
     height: auto; /* Maintain aspect ratio */
     border-radius: 10px; /* Optional: Adds rounded corners */
     display: block; /* Ensures no extra spacing issues */
+    order: -1; /* Moves image to the left */
 }
 
 .image-right{
-    float:right;
     width: 40%;
     height: auto; /* Maintain aspect ratio */
     border-radius: 10px; /* Optional: Adds rounded corners */
     display: block; /* Ensures no extra spacing issues */
+    order: 1; /* Moves image to the right */
 }
 
 .text-right {
-    float:right;
     width: 65%; /* Gives the text enough space */
+    order: 1;
 }
 
 .text-left {
-    float:left;
     width: 65%; /* Gives the text enough space */
+    order: -1; /* Ensures text stays on the right */
 }
 
 h1:first-of-type {
