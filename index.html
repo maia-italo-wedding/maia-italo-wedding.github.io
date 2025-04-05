@@ -50,6 +50,11 @@
             </div>
         </div>
     </header>
+
+    <div id="countdown-container">
+        <h4>Countdown to the Big Day 🎉</h4>
+        <div id="countdown"></div>
+    </div>
     
     <section id="about">
         <div class="about-container">
@@ -66,11 +71,11 @@
             <img src="media/gavirate.jpg" alt="Lago di Varese" class="image-right">
             <div class="text-left">
                 <h2>Wedding Details</h2>
-                <p><strong>Location:</strong> Galliate Lombardo (Varese), Italia</p>
-                <p><strong>Dress Code:</strong> [Formal/Semi-Formal, etc.]</p>
-                <p>
-                    <a href="https://maia-italo-wedding.github.io/detailed-schedule" taget="_blank"><strong>Schedule</strong>:</a>
-                    Ceremony at 2:15 pm, Reception at 4:00 pm</p>
+                <p><strong>Cerimony:</strong> chiesa "Santi Protaso e Gervaso", Galliate Lombardo (Varese, Italia)</p>
+                <p><strong>Reception:</strong> "Il Torchio di Villa Bellardi", Galliate Lombardo (Varese, Italia)</p>
+                <p><strong>Dress code:</strong> free, but expect old cobble-stone roads and a grass field!</p>
+                <p><strong>Short schedule:</strong> ceremony at 2:15 pm, reception at 4:00 pm</p>
+                <a href="https://maia-italo-wedding.github.io/detailed-schedule" taget="_blank"><strong>Full schedule here</strong></a>
             </div>
         </div>
     </section>
@@ -104,5 +109,31 @@
             </div>
         </div>
     </section>
+
+
+    <script>
+        const countdownElement = document.getElementById("countdown");
+      
+        function updateCountdown() {
+          const weddingDate = new Date("September 20, 2025 00:00:00").getTime();
+          const now = new Date().getTime();
+          const distance = weddingDate - now;
+      
+          if (distance < 0) {
+            countdownElement.innerHTML = "🎉 The big day is here! 🎉";
+            return;
+          }
+      
+          const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      
+          countdownElement.innerHTML = `${days}d ${hours}h ${minutes}m`;
+        }
+      
+        updateCountdown();
+        setInterval(updateCountdown, 60000);
+      </script>
+
 </body>
 </html>
