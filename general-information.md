@@ -2,6 +2,8 @@
 
 The wedding ceremony and reception will both take place in [Galliate Lombardo](https://maps.app.goo.gl/xAy4S327aN14Aw997), a small village in Varese province.
 
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1590.8865093079864!2d8.769611720701388!3d45.78509858564038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47867c32739d3099%3A0x5905700ce9e3a9a!2s21020%20Galliate%20Lombardo%20VA%2C%20Italia!5e1!3m2!1sit!2snl!4v1743844562081!5m2!1sit!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
 ### How to get there
 
 Unfortunately, public transportation around to and around Galliate is not really an option. There are some buses to and from Varese, but they do not run frequently and do not operate later than 7 pm. 
