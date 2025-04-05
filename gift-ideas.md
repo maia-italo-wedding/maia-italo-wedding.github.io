@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="style.css">
+
 Gift ideas! 
 
 - kitchen aid (baby blue/cream/white/brown) (pls not red)
