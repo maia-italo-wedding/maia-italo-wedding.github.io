@@ -1,6 +1,7 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 
 A few things that you can consider visiting if you are spending more time in Varese's area:
+
 1. Sacro Monte di Varese
 2. Santa Caterina del Sasso
 3. Villa della Porta Bozzolo
