@@ -52,66 +52,12 @@
     </header>
 
     <div id="countdown-container">
-        <h4>Countdown to the Big Day 🎉</h4>
         <div id="countdown"></div>
     </div>
     
     <section id="about">
-  <style>
-    .about-container {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: flex-start;
-      max-width: 1000px;
-      margin: 0 auto;
-      padding: 40px 20px;
-      font-family: Georgia, serif;
-      background-color: #fff;
-      color: #333;
-      line-height: 1.6;
-    }
-
-    .image-left {
-      flex: 1 1 40%;
-      max-width: 400px;
-      margin-right: 30px;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    }
-
-    .text-right {
-      flex: 1 1 55%;
-    }
-
-    .text-right h2 {
-      font-size: 2em;
-      margin-bottom: 20px;
-      color: #444;
-    }
-
-    .text-right p {
-      white-space: pre-line;
-    }
-
-    @media (max-width: 768px) {
-      .about-container {
-        flex-direction: column;
-        text-align: left;
-      }
-
-      .image-left {
-        margin: 0 auto 20px;
-        width: 100%;
-      }
-
-      .text-right {
-        width: 100%;
-      }
-    }
-  </style>
-
-  <div class="about-container">
-    <img src="media/delft_street.jpg" alt="A special moment" class="image-left">
+  <div class="text-with-image">
+    <img src="media/delft_street.jpg" alt="A special moment" class="image-float">
     <div class="text-right">
       <h2>Our Story</h2>
       <p>
@@ -140,7 +86,7 @@ When Maia arrived home, Italo asked if she got home safely. Three days later, th
 
     <section id="details">
         <div class="about-container">
-            <img src="media/gavirate.jpg" alt="Lago di Varese" class="image-right">
+            <img src="media/gavirate.jpg" alt="Lago di Varese" class="image-float">
             <div class="text-left">
                 <h2>Wedding Details</h2>
                 <p><strong>Cerimony:</strong> chiesa "Santi Protaso e Gervaso", Galliate Lombardo (Varese, Italia)</p>
@@ -153,21 +99,23 @@ When Maia arrived home, Italo asked if she got home safely. Three days later, th
     </section>
 
     <section id="general-information">
-        <h2>General Information</h2>
-        <p>
-            <a href="https://maia-italo-wedding.github.io/general-information" target="_blank">Here</a> 
-            you can find some general information about how to reach the venue and where to stay.
-        </p>
+        <div class="text">
+            <h2>General Information</h2>
+            <p>
+                <a href="https://maia-italo-wedding.github.io/general-information" target="_blank">Here</a> 
+                you can find some general information about how to reach the venue and where to stay.
+            </p>
+        </div>
     </section>
 
     <section id="gift-ideas">
-        <h2>Gift Ideas</h2>
-        <p>We are so grateful for your presence on our special day. If you wish to give us a gift, we have set up a registry at:</p>
-        <ul>
-            <li><a href="https://maia-italo-wedding.github.io/gift-ideas" target="_blank">Gift ideas page</a></li>
-        </ul>
-        <p>Alternatively, we would appreciate contributions towards our honeymoon fund.</p>
-
+        <div class="text">
+            <h2>Gift Ideas</h2>
+            <p>We are so grateful for your presence on our special day. If you wish to give us a gift, we have set up a registry 
+                <a href="https://maia-italo-wedding.github.io/gift-ideas" target="_blank">here</a>.
+            </p>
+            <p>Alternatively, we would appreciate contributions towards our honeymoon fund.</p>
+        </div>
     </section>
     
     <section class="rsvp-wrapper">
@@ -200,7 +148,7 @@ When Maia arrived home, Italo asked if she got home safely. Three days later, th
           const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
           const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
       
-          countdownElement.innerHTML = `${days}d ${hours}h ${minutes}m`;
+          countdownElement.innerHTML = `${days} days and ${hours} hours`;
         }
       
         updateCountdown();

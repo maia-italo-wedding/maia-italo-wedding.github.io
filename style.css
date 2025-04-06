@@ -1,17 +1,31 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: Georgia, serif;
     overflow-x: hidden;
 }
 
 .about-container {
-    display: flex; /* Aligns image and text in a row */
-    align-items: center; /* Vertically centers items */
-    justify-content: space-between; /* Distributes space evenly */
-    gap: 20px; /* Adds space between image and text */
-    max-width: 800px; /* Ensures content does not stretch too wide */
-    margin: auto; /* Centers the section horizontally */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: Georgia, serif;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+
+.text-with-image {
+    position: relative;
+    flex-wrap: wrap;
+    font-family: Georgia, serif;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+    padding: 40px 20px;
 }
 
 .image-left {
@@ -21,7 +35,6 @@ body {
     display: block; /* Ensures no extra spacing issues */
     order: -1; /* Moves image to the left */
 }
-
 .image-right{
     width: 40%;
     height: auto; /* Maintain aspect ratio */
@@ -31,19 +44,60 @@ body {
 }
 
 .text-right {
-    width: 65%; /* Gives the text enough space */
+    width: 100%; /* Gives the text enough space */
+    flex: 1;
     order: 1;
+    font-family: Georgia, serif;
 }
+
+.text-right h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #444;
+    font-family: Georgia, serif;
+}
+
+.text-right p {
+white-space: pre-line;
+font-family: Georgia, serif;
+}
+
 
 .text-left {
     width: 65%; /* Gives the text enough space */
     order: -1; /* Ensures text stays on the right */
+    font-family: Georgia, serif;
+}
+
+section .text {
+    width: 100%; /* Gives the text enough space */
+    font-family: Georgia, serif;
 }
 
 h1:first-of-type {
     display: none;
 }
 
+.wrap-text {
+    background-color: #fff;
+    font-family: Georgia, serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.image-float {
+    float: left;
+    width: 40%;
+    max-width: 300px;
+    margin: 0 20px 20px 0;
+    border-radius: 10px;
+}
+
+.text-with-image::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 /* Ensures responsiveness */
 @media (max-width: 768px) {
@@ -62,6 +116,11 @@ h1:first-of-type {
         float:right;
         width: 100%;
     }
+
+    .image-left {
+    margin: 0 auto 20px;
+    width: 100%;
+    }
 }
 
 /* Make RSVP section full width and background colored */
@@ -75,7 +134,6 @@ h1:first-of-type {
 
 /* Center content inside RSVP */
 .rsvp {
-    max-width: 800px; /* Adjust to match your site's width */
     margin: auto; /* Centers the RSVP content */
 }
 
@@ -104,12 +162,6 @@ h1:first-of-type {
     box-sizing: border-box; /* Makes sizing predictable */
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    overflow-x: hidden; /* Prevents horizontal scroll */
-}
 
 header {
     background-color: #f8f8f8;
@@ -237,12 +289,25 @@ header {
     h2, h3 {
         font-size: 1.2em;
     }
+
+    .image-float {
+        float: none;
+        display: block;
+        margin: 0 auto 20px;
+        width: 80%;
+    }
 }
 
 /* Countdown styles */
 #countdown-container {
-    text-align: center;
-    margin: 40px 0;
+    text-align: right;
+    margin-right: 10px;
+    font-family: Georgia, serif;
+}
+
+#countdown-container h4 {
+    margin-right: 10px;  /* Adds space between the text and countdown */
+    font-family: Georgia, serif;
 }
 
 #countdown {
