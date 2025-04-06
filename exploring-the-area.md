@@ -1,4 +1,6 @@
-THINGS TO DO
+<link rel="stylesheet" type="text/css" href="style.css">
+
+A few things that you can consider visiting if you are spending more time in Varese's area:
 1. Sacro Monte di Varese
 2. Santa Caterina del Sasso
 3. Villa della Porta Bozzolo
@@ -10,7 +12,7 @@ THINGS TO DO
 	- castello Sforzesco
 	- Pinacoteca di Brera
 	- Piazza Gae Aulenti
-	- L'Ultima Cena (book well in advance!)
+	- "Ultima Cena" painting, from Leanardo da Vinci(book well in advance!)
 	
 5. Como
 7. Torino
