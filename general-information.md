@@ -2,7 +2,7 @@
 
 Our wedding ceremony and reception will both take place in [Galliate Lombardo](https://maps.app.goo.gl/xAy4S327aN14Aw997), a small village in Varese province (Italy). First, we will have our religious celebration in the local church "Santi Protaso e Gervaso", then we will move to the restaurant "Il Torchio di Villa Bellardi" for the refreshment, just a couple of minutes away!
 
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1nwJ5843QkM0AVAvq_k-dv4sXxZVAAVo&ehbc=2E312F&noprof=1" width="600" height="450"></iframe>
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1nwJ5843QkM0AVAvq_k-dv4sXxZVAAVo&ehbc=2E312F&noprof=1" width="80%" height="450"></iframe>
 
 ### How to get there
 
