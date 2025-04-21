@@ -202,10 +202,10 @@ header {
     flex: 1;
     min-width: 0;
     overflow: hidden;
+    font-family: Georgia, serif;
 }
 
 .titles h1,
-.titles h2,
 .titles h3 {
     margin: 0;
     line-height: 1.2;
@@ -213,9 +213,10 @@ header {
     font-size: 1.2em; /* shrink font size a bit */
 }
 
-.titles h1 {
-    font-size: 1.5em;
-    font-weight: bold;
+.titles h2 {
+    font-size: 4.5em;
+    line-height: 1.2;
+    font-weight: normal;
 }
 
 .menu {
