@@ -5,19 +5,6 @@ body {
     overflow-x: hidden;
 }
 
-.about-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 40px 20px;
-    font-family: Georgia, serif;
-    background-color: #fff;
-    color: #333;
-    line-height: 1.6;
-}
-
 .text-with-image {
     display: flex; /* Use flexbox for layout */
     gap: 20px; /* Add space between the image and text */
@@ -83,6 +70,9 @@ font-family: Georgia, serif;
 
 section .text {
     width: 100%; /* Gives the text enough space */
+    font-family: Georgia, serif;
+    background-color: #fff;
+    padding: 40px 20px;
     font-family: Georgia, serif;
 }
 
