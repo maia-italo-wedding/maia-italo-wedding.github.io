@@ -1,6 +1,6 @@
 body {
-    margin-left: 0;
-    padding: 0;
+    margin: 0;
+    padding: 0px;
     font-family: Georgia, serif;
     overflow-x: hidden;
 }
@@ -146,9 +146,11 @@ h1:first-of-type {
 .rsvp-wrapper {
     background-color: #a5615a; /* Change this to match your header color */
     color: white; /* Ensures text is visible */
-    padding: 40px 0; /* Adds spacing above and below */
     text-align: center; /* Centers text */
     width: 100%; /* Ensures full page width */
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, serif;
 }
 
 
@@ -159,6 +161,10 @@ h1:first-of-type {
     align-items: center;
     justify-content: center; /* Center text and icon horizontally */
     gap: 10px; /* Space between text and icon */
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, serif;
+    line-height: 1.5;
 }
 
 /* RSVP Icon */
@@ -336,4 +342,15 @@ header {
     color: #a5615a;
     font-weight: bold;
     margin-top: 10px;
+}
+
+.authorship {
+    margin: 0;
+    padding: 20px;
+    background-color: #a5615a;
+    color: white;
+    text-align: left;
+    font-size: 0.6em;
+    font-family: Georgia, serif;
+    line-height: 0.5;
 }
