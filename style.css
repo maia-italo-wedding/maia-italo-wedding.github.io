@@ -81,10 +81,6 @@ h1:first-of-type {
 
 /* Ensures responsiveness */
 @media (max-width: 768px) {
-    .about-container {
-        flex-direction: column; /* Stacks image and text on small screens */
-        text-align: center;
-    }
 
     .about-image {
         float: left;
@@ -98,21 +94,27 @@ h1:first-of-type {
     }
 
     .image-left {
-    margin: 0 auto 20px;
+    margin: 0;
     width: 100%;
     }
 
     .text-with-image {
         flex-direction: column; /* Stack image and text vertically */
         text-align: center;
+        width: 100%;
     }
 
     .image-float {
         width: 80%; /* Make the image smaller on small screens */
-        margin: 0 auto 20px; /* Center the image */
+        margin: 0;
     }
 
     .text-right {
+        width: 100%; /* Ensure text spans full width */
+        text-align: center;
+    }
+
+    .text-left {
         width: 100%; /* Ensure text spans full width */
         text-align: center;
     }
