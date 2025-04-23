@@ -19,20 +19,6 @@ body {
     padding-right: 120px;
 }
 
-.image-left {
-    width: 40%;
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Optional: Adds rounded corners */
-    display: block; /* Ensures no extra spacing issues */
-    order: -1; /* Moves image to the left */
-}
-.image-right{
-    width: 40%;
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Optional: Adds rounded corners */
-    display: block; /* Ensures no extra spacing issues */
-    order: 1; /* Moves image to the right */
-}
 
 .image-float {
     flex: 0 0 40%; /* Fix the image width to 40% */
@@ -154,7 +140,7 @@ h1:first-of-type {
     margin: 0;
     padding: 0;
     font-family: Georgia, serif;
-    line-height: 1.5;
+    line-height: 1.;
 }
 
 /* RSVP Icon */
@@ -185,19 +171,17 @@ header {
 
 .header-content {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
     max-width: 100%;
-    padding-left: 240px;
+    padding-left: 5%;
 }
 
 
 .titles {
     flex: 1;
-    min-width: 0;
-    overflow: hidden;
+    text-align:center;
     font-family: Georgia, serif;
 }
 
@@ -210,7 +194,7 @@ header {
 }
 
 .titles h2 {
-    font-size: 4.5em;
+    font-size: 4.0em;
     line-height: 1.2;
     font-weight: normal;
 }
@@ -267,7 +251,7 @@ header {
 
     .titles {
         width: 100%;
-        text-align: left;
+        text-align: center;
     }
 
     .menu {
@@ -316,22 +300,17 @@ header {
 /* Countdown styles */
 #countdown-container {
     text-align:center;
-    margin-left: 230px;
-    margin-right: 10px;
     font-family: Georgia, serif;
-    font-size:x-large;
+    font-size:large;
 }
 
 #countdown-container h4 {
-    margin-right: 10px;  /* Adds space between the text and countdown */
     font-family: Georgia, serif;
 }
 
 #countdown {
     font-size: 1.5em;
     color: #a5615a;
-    font-weight: bold;
-    margin-top: 10px;
 }
 
 .authorship {
