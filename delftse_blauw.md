@@ -11,7 +11,7 @@ Una porcellana di Delft sarebbe bella per ricordare la cittadina dove ci siamo c
 
 https://www.heinendelftsblauw.com/product/round-vase-windmill-ceramic-20-cm?sku=V0206
 
-https://www.heinendelftsblauw.com/product/belly-vase-windmill-ceramic-23-cm
+https://www.heinendelftsblauw.com/product/belly-vase-flower-ceramic-23-cm
 
 https://www.heinendelftsblauw.com/product/vase-no.-3-blauw-vouw-porcelain?sku=TW903004
 
