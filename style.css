@@ -329,8 +329,8 @@ header {
 
 .floating-button {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    top: 20px;
+    left: 20px;
     z-index: 9999;
     display: inline-block;
     background-color: transparent;
@@ -340,12 +340,29 @@ header {
 }
 
 .floating-button img {
-    width: 50px; /* Adjust size as needed */
+    width: 100px; /* Adjust size as needed */
     height: auto;
     border-radius: 50%;
     transition: transform 0.3s ease-in-out;
 }
 
 .floating-button img:hover {
-    transform: scale(1.2);
+    transform: scale(1.4);
+}
+
+.github-hover {
+    display: inline-block;
+}
+
+.github-logo {
+    width: 24px;
+    height: auto;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* On hover, hide the GitHub logo and show the chestnut using background */
+.github-hover:hover .github-logo {
+    vertical-align: middle;
+    width: 70px;
+    content: url("media/chestnut.png");
 }
