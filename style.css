@@ -326,3 +326,26 @@ header {
     font-family: Georgia, serif;
     line-height: 0.5;
 }
+
+.floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.floating-button img {
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.floating-button img:hover {
+    transform: scale(1.2);
+}
