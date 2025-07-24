@@ -18,6 +18,7 @@ Both registries contain links to online stores where you can purchase gifts, but
 
   Please remember to **mark the item as purchased** once you get it, so we can avoid duplicates.
   Some items include notes to better explain what we have in mind.
+  Annoyingly the website asks for your email when purchasing. Just leave a fake one if you want (e.g., leaveme@peace.plz).
 
 - 🪑[Ikea registry](https://www.ikea.com/ch/en/gift-registry/guest/?id=93c31c66-dbeb-411c-b8e1-9f4b9b4c8902): 
 
@@ -28,7 +29,7 @@ Both registries contain links to online stores where you can purchase gifts, but
   
   You can choose to send your gift to either of these addresses:
   
-  - 🇨🇭 Our home in Basel
+  - 🇨🇭 Our home in Basel (with delivery **before September 10th** or **after October 10th**)
 
      Bartenheimerstrasse 4, 4055 Basel-Stadt, Switzerland
 
@@ -86,6 +87,7 @@ Se volete dedicarci un regalo, abbiamo creato 2 liste nozze per aiutarci ad arre
 
   Per favore, se acquistate un oggetto qui ricordatevi di **segnare un oggetto come "comprato"**, così da evitare duplicati.
   Alcune voci hanno una nota aggiuntiva con chiarimenti di ciò che ci piacerebbe.
+  Il sito è un po' noioso e vi chiederà l'email quando comprate qualcosa. Se volete, lasciate pure una mail fasulla (tipo nessun@email.biz)
 
 - 🪑[Lista Ikea](https://www.ikea.com/ch/en/gift-registry/guest/?id=93c31c66-dbeb-411c-b8e1-9f4b9b4c8902): 
   Abbiamo usato il sito Ikea svizzero perchè le sedi sono più vicine a noi. Se la spedizione al nostro indirizzo è possibile, potete usare qualsiasi altra sede Ikea!
@@ -96,7 +98,7 @@ Se volete dedicarci un regalo, abbiamo creato 2 liste nozze per aiutarci ad arre
 
   Potete scegliere di spedire i regali a uno di questi due indirizzi:
   
-  - 🇨🇭 La nostra casa a Basilea
+  - 🇨🇭 La nostra casa a Basilea (con consegna **prima del 10 settembre** o **dopo il 10 ottobre**)
 
      Bartenheimerstrasse 4, 4055 Basel-Stadt, Switzerland
 
