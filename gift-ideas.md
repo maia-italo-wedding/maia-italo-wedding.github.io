@@ -7,8 +7,9 @@ We appreciate your **presence above all**, and look forward to celebrate with yo
 
 If you want to bless us with a gift, we have put together two registries so you can help us furnish our house for our future together! 
 Both registries contain links to online stores where you can purchase gifts, but feel free to shop around if you find a better deal 😉.
-
-    ⚠️ Unfortunately, we were not able to set up options for splitting the cost of a gift. If you’d like to contribute to a larger item, we hope you’ll find someone to collaborate with.
+  ```
+  ⚠️ Unfortunately, we were not able to set up options for splitting the cost of a gift. If you’d like to contribute to a larger item, we hope you’ll find someone to collaborate with.
+  ```
 
 <br>
 
@@ -76,8 +77,10 @@ _____________
 Vi siamo immensamente grati per la vostra presenza, e non vediamo l'ora di celebrare la giornata con voi!
 
 Se volete dedicarci un regalo, abbiamo creato 2 liste nozze per aiutarci ad arredare la nostra casa! Entrambe le liste contengono dei link dove comprare i vari oggetti, ma se trovate alternative migliori fate pure 😉
-
-    ⚠️ Purtroppo, non siamo riusciti ad avere l'opzione di contribuire solo parzialmente ad un regalo. Speriamo che riusciate a collaborare con qualcun altro per gli oggetti più grandi.
+  
+  ```
+  ⚠️ Purtroppo, non siamo riusciti ad avere l'opzione di contribuire solo parzialmente ad un regalo. Speriamo che riusciate a collaborare con qualcun altro per gli oggetti più grandi.
+  ```
 
 <br>
 
