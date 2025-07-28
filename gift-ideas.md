@@ -36,7 +36,7 @@ Both registries contain links to online stores where you can purchase gifts, but
      Bartenheimerstrasse 4, 4055 Basel-Stadt, Switzerland
 
 
-  - 🇮🇹 Italo’s family house
+  - 🇮🇹 Italo’s family house (not for bigger items)
 
     Via Leopardi 13, 21020 Bodio Lomnago (VA), Italy
 
@@ -108,7 +108,7 @@ Se volete dedicarci un regalo, abbiamo creato 2 liste nozze per aiutarci ad arre
      Bartenheimerstrasse 4, 4055 Basel-Stadt, Switzerland
 
 
-  - 🇮🇹 La casa della famiglia di Italo
+  - 🇮🇹 La casa della famiglia di Italo (non per oggetti grandi)
 
     Via Leopardi 13, 21020 Bodio Lomnago (VA), Italia
 
